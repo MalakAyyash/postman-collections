@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "1b541304-2ea1-4396-8371-d64336a7c9d5",
+		"name": "search",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22500022"
+	},
+	"item": [
+		{
+			"name": "List cities",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "04654f82-aac2-4c2c-82f9-40c9f9a582e1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-build.mashvisor.com/v1.1/client/city/list?state=FL",
+					"protocol": "https",
+					"host": [
+						"api-build",
+						"mashvisor",
+						"com"
+					],
+					"path": [
+						"v1.1",
+						"client",
+						"city",
+						"list"
+					],
+					"query": [
+						{
+							"key": "state",
+							"value": "FL"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List top markets",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get City Invesmtent Performance",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "04654f82-aac2-4c2c-82f9-40c9f9a582e1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-build.mashvisor.com/v1.1/client/city/investment/CA/Los%20Angeles",
+					"protocol": "https",
+					"host": [
+						"api-build",
+						"mashvisor",
+						"com"
+					],
+					"path": [
+						"v1.1",
+						"client",
+						"city",
+						"investment",
+						"CA",
+						"Los%20Angeles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get City Top Properties",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "04654f82-aac2-4c2c-82f9-40c9f9a582e1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-build.mashvisor.com/v1.1/client/city/properties/CA/Los%20Angeles",
+					"protocol": "https",
+					"host": [
+						"api-build",
+						"mashvisor",
+						"com"
+					],
+					"path": [
+						"v1.1",
+						"client",
+						"city",
+						"properties",
+						"CA",
+						"Los%20Angeles"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

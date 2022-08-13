@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "5368c3a0-f834-4445-9c5b-66ff900d739f",
+		"name": "Property Info",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22500022"
+	},
+	"item": [
+		{
+			"name": "Get Property",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "04654f82-aac2-4c2c-82f9-40c9f9a582e1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-build.mashvisor.com/v1.1/client/property?id=2214791&state=GA",
+					"protocol": "https",
+					"host": [
+						"api-build",
+						"mashvisor",
+						"com"
+					],
+					"path": [
+						"v1.1",
+						"client",
+						"property"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2214791"
+						},
+						{
+							"key": "state",
+							"value": "GA"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Taxes",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "04654f82-aac2-4c2c-82f9-40c9f9a582e1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-build.mashvisor.com/v1.1/client/property/2214791/taxing?state=GA",
+					"protocol": "https",
+					"host": [
+						"api-build",
+						"mashvisor",
+						"com"
+					],
+					"path": [
+						"v1.1",
+						"client",
+						"property",
+						"2214791",
+						"taxing"
+					],
+					"query": [
+						{
+							"key": "state",
+							"value": "GA"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "7e014d0c-e462-46a4-912c-e1290a70a55b",
+		"name": "Rento Calculator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22500022"
+	},
+	"item": [
+		{
+			"name": "Lookup",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "04654f82-aac2-4c2c-82f9-40c9f9a582e1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-build.mashvisor.com/v1.1/client/rento-calculator/lookup?state=TX&zip_code=76549&resource=airbnb&beds=2",
+					"protocol": "https",
+					"host": [
+						"api-build",
+						"mashvisor",
+						"com"
+					],
+					"path": [
+						"v1.1",
+						"client",
+						"rento-calculator",
+						"lookup"
+					],
+					"query": [
+						{
+							"key": "state",
+							"value": "TX"
+						},
+						{
+							"key": "zip_code",
+							"value": "76549"
+						},
+						{
+							"key": "resource",
+							"value": "airbnb"
+						},
+						{
+							"key": "beds",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Beds",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "04654f82-aac2-4c2c-82f9-40c9f9a582e1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-build.mashvisor.com/v1.1/client/rento-calculator/beds?state=TX&zip_code=76549&resource=airbnb&beds=2",
+					"protocol": "https",
+					"host": [
+						"api-build",
+						"mashvisor",
+						"com"
+					],
+					"path": [
+						"v1.1",
+						"client",
+						"rento-calculator",
+						"beds"
+					],
+					"query": [
+						{
+							"key": "state",
+							"value": "TX"
+						},
+						{
+							"key": "zip_code",
+							"value": "76549"
+						},
+						{
+							"key": "resource",
+							"value": "airbnb"
+						},
+						{
+							"key": "beds",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Baths",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "04654f82-aac2-4c2c-82f9-40c9f9a582e1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-build.mashvisor.com/v1.1/client/rento-calculator/baths?state=TX&zip_code=76549&resource=airbnb&beds=2",
+					"protocol": "https",
+					"host": [
+						"api-build",
+						"mashvisor",
+						"com"
+					],
+					"path": [
+						"v1.1",
+						"client",
+						"rento-calculator",
+						"baths"
+					],
+					"query": [
+						{
+							"key": "state",
+							"value": "TX"
+						},
+						{
+							"key": "zip_code",
+							"value": "76549"
+						},
+						{
+							"key": "resource",
+							"value": "airbnb"
+						},
+						{
+							"key": "beds",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
